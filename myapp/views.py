@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from .models import JournalEnteryLines, Account, Currency
 from .serializers import JournalSerializer, AccountSerializer, CurrencySerializer
 
-
+# Second Commit
 
 # Views for JournalEnteryLines model
 class JournalListCreate(generics.ListCreateAPIView):
